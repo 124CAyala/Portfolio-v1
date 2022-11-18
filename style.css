@@ -1,0 +1,80 @@
+/* .title {
+  width: 150px;
+  height: 80px;
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+} */
+.menu {
+  width: 20%;
+  float: left;
+  height: 100vh;
+}
+.menu2 {
+  width: 100vh;
+}
+.content {
+  width: 80%;
+  float: right;
+}
+.btn-danger {
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-danger:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.text-general {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: white !important;
+}
+.btn-primary{
+  font-size: 20px;
+  border-radius: 0px;
+  border: none;
+  border-color: #6564DB !important;
+  background-color: transparent;
+}
+.btn-primary:hover {
+  background-color: #0C6A6F !important;
+  border-color: white !important;
+}
+.nav {
+  margin-left: 30%;
+  margin-right: 0%;
+}
+.icons {
+  margin-top: 15%;
+}
+body {
+    background: url(imgs/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.me {
+  padding-top: 10%;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-secondary {
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-secondary img:hover {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.custom-tooltip {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: white !important;
+  --bs-tooltip-bg: var(--bs-primary);
+  height: auto;
+  width: auto;
+  font-size: 15px;
+}
