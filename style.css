@@ -39,19 +39,21 @@
   background-color: #0C6A6F !important;
   border-color: white !important;
 }
-.nav {
+/* .nav {
   margin-left: 30%;
   margin-right: 0%;
-}
+} */
 .icons {
   margin-top: 15%;
 }
-body {
-    background: url(imgs/background.jpg) no-repeat center center fixed; 
+.bg {
+    background: url(imgs/background.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 .me {
   padding-top: 10%;
