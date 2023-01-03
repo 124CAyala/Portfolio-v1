@@ -80,3 +80,8 @@
   width: auto;
   font-size: 15px;
 }
+.contact {
+  background-image: url("imgs/contact.png");
+  height: 900px;
+  background-repeat: no-repeat;
+}
