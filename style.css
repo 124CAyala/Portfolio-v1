@@ -28,15 +28,17 @@
   font-family: 'Kdam Thmor Pro', sans-serif;
   color: white !important;
 }
-.btn-primary{
-  font-size: 20px;
+.btn-primary {
+  font-size: 5rem;
   border-radius: 0px;
   border: none;
   border-color: #6564DB !important;
   background-color: transparent;
+  margin-right: 4rem !important;
 }
+
 .btn-primary:hover {
-  background-color: #0C6A6F !important;
+  color: #6564DB !important;
   border-color: white !important;
 }
 /* .nav {
@@ -47,7 +49,7 @@
   margin-top: 15%;
 }
 .bg {
-    background: url(imgs/background.jpg) no-repeat;
+    background: url(imgs/portfolio-bg.png) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,7 +58,7 @@
   height: 100vh;
 }
 .me {
-  padding-top: 10%;
+  margin-top: 15rem;
 }
 .btn:hover {
     color: var(--bs-btn-hover-color);
